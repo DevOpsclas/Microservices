@@ -9,7 +9,7 @@ dockerpath=oketcbb/api
 
 # Step 2:  
 # Authenticate & tag
-docker login --username=oketcbb --email=bethoketch@gmail.co.uk
+docker login --username=Devopsclas --email=se.rajeshtandon@gmail.com
 docker tag api $dockerpath
 echo "Docker ID and Image: $dockerpath"
 
