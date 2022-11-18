@@ -1,1 +1,15 @@
-<paste log output from Kubernetes-mediated prediction, here>
+(.devops) seraj@PureBook-S14 project-ml-microservice-kubernetes % ./run_kubernetes.sh
+Error from server (AlreadyExists): pods "api-pod" already exists
+NAME      READY   STATUS    RESTARTS      AGE
+api-pod   1/1     Running   1 (60s ago)   36h
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+
+(.devops) seraj@PureBook-S14 project-ml-microservice-kubernetes % ./make_prediction.sh   
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
