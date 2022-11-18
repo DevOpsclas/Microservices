@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/<VCS>/<ORG_NAME>/<Microservices>.svg?style=svg&circle-token=<4fa73221855034813f4c840b5cd18123fe55e784>)]
+<include a CircleCI status badge, here>
 
 ## Project Overview
 
